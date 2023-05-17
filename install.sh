@@ -25,4 +25,4 @@ stow git
 stow zsh
 stow starship
 
-source ~/.zshrc
+exec zsh
