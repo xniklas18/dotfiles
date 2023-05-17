@@ -15,11 +15,10 @@ nix-env -iA \
 	nixpkgs.gh
 
 # install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-rm -R -f ~/.zshrc ~/.config/starship.toml ~/.gitignore_global
 
 # stow
 stow git
 stow zsh
 stow starship
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
