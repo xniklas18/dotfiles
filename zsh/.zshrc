@@ -9,9 +9,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias zshconfig="nano ~/.zshrc"
 alias sourcezsh="source ~/.zshrc"
-alias ls="exa"
-alias lss="exa -1"
-alias la="exa -a"
+alias ls="exa --icons"
+alias lss="exa -1 --icons"
+alias la="exa -a --icons"
 alias c="clear"
 alias cls="clear"
 alias dev="cd ~/dev && clear"
