@@ -1,5 +1,4 @@
 format = """
-$username\
 $hostname\
 $directory\
 $git_branch\
@@ -8,6 +7,7 @@ $git_status\
 $git_metrics\
 $fill\
 $nodejs\
+$username\
 $cmd_duration $jobs $time\
 $line_break\
 $character"""
@@ -17,6 +17,12 @@ format = "[$symbol($version )]($style)"
 
 [fill]
 symbol = " "
+
+[username]
+disabled = false
+show_always = true
+style_user = "bold #af8fe9"
+format = " user - [$user]($style)"
 
 [directory]
 style = "blue"
@@ -42,7 +48,7 @@ format = "[$symbol]($style)"
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style) )'
-style = "cyan"
+style = "white"
 
 [git_state]
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
