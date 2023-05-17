@@ -24,3 +24,5 @@ rm -R -f ~/.zshrc
 stow git
 stow zsh
 stow starship
+
+source ~/.zshrc
