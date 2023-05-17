@@ -11,7 +11,8 @@ nix-env -iA \
 	nixpkgs.stow \
 	nixpkgs.yarn \
 	nixpkgs.bat \
-	nixpkgs.starship
+	nixpkgs.starship \
+	nixpkgs.gh
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
